@@ -1,0 +1,100 @@
+.cellStyle {
+  box-shadow: 10px 10px 20px black;
+}
+
+td {
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.fieldDiv {
+  height: calc(100vh - 114px);
+}
+
+.footerBox {
+  text-align: center;
+  margin: auto;
+}
+
+.marginBottom0{
+  margin-bottom: 0px;
+}
+
+.marginBottom10{
+  margin-bottom: 10px;
+}
+
+.setupWindow{
+  background-color: #f0f0f0;
+  color: #2ba6cb;
+  width: 458px;
+  margin: auto;
+  border-style: solid;
+  border-color: #a0a0a0;
+  border-width: 2px;
+  border-radius: 20px 20px;
+  box-shadow: 10px 10px 20px black;
+}
+
+.resultWindow{
+  background-color: #f0f0f0;
+  color: #2ba6cb;
+  width: 300px;
+  margin: auto;
+  border-style: solid;
+  border-color: #a0a0a0;
+  border-width: 2px;
+  border-radius: 20px 20px;
+  box-shadow: 10px 10px 20px black;
+  text-align: center;
+}
+
+#result{
+  margin-top: 20px;
+}
+
+
+.whiteBack{
+  background-color: rgba(255, 255, 255, .4);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.setupHead{
+  text-align: center;
+  width: auto;
+  background-color: #e0e0e0;
+  border-top-left-radius: 17px 17px;
+  border-top-right-radius: 17px 17px;
+}
+
+.setupWindow{
+  text-align: center;
+}
+
+.setPlayer1{
+  width: auto;
+  padding: 0px 10px 0px 10px;
+  border-style: solid;
+  border-color: #d0d0d0;
+  border-width: 0 1px 0 0;
+}
+
+.setPlayer2{
+  width: auto;
+  padding: 0px 10px 0px 10px;
+  border-style: solid;
+  border-color: #d0d0d0;
+  border-width: 0 0 0 1px; 
+}
+
+.submit{
+  margin: 10px 0 10px 0;
+}
+
+

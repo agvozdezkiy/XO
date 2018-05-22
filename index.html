@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Крестики нолики</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="foundation.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+<div id="mainDiv">
+  <div class="top-bar" id="responsive-menu">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li onclick="startGame()"><a>СТАРТ</a></li>
+        <li onclick="drawSetupWindow()"><a>Настройки</a></li>
+        <li><a href="help.html" target="_blank">Справка</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id = "fieldDiv" class="fieldDiv">
+    <table id="table">
+      <tbody>
+        <tr>
+          <td><canvas id="0" class="cellStyle" onclick="humanMoveHandler ( id )" onmouseover="mouseOverHandler(id)" onmouseout="mouseOutHandler(id)"></canvas></td>
+          <td><canvas id="1" class="cellStyle" onclick="humanMoveHandler ( id )" onmouseover="mouseOverHandler(id)" onmouseout="mouseOutHandler(id)"></canvas></td>
+          <td><canvas id="2" class="cellStyle" onclick="humanMoveHandler ( id )" onmouseover="mouseOverHandler(id)" onmouseout="mouseOutHandler(id)"></canvas></td>
+        </tr>
+
+        <tr>
+          <td><canvas id="3" class="cellStyle" onclick="humanMoveHandler ( id )" onmouseover="mouseOverHandler(id)" onmouseout="mouseOutHandler(id)"></canvas></td>
+          <td><canvas id="4" class="cellStyle" onclick="humanMoveHandler ( id )" onmouseover="mouseOverHandler(id)" onmouseout="mouseOutHandler(id)"></canvas></td>
+          <td><canvas id="5" class="cellStyle" onclick="humanMoveHandler ( id )" onmouseover="mouseOverHandler(id)" onmouseout="mouseOutHandler(id)"></canvas></td>
+        </tr>
+
+        <tr>
+          <td><canvas id="6" class="cellStyle" onclick="humanMoveHandler ( id )" onmouseover="mouseOverHandler(id)" onmouseout="mouseOutHandler(id)"></canvas></td>
+          <td><canvas id="7" class="cellStyle" onclick="humanMoveHandler ( id )" onmouseover="mouseOverHandler(id)" onmouseout="mouseOutHandler(id)"></canvas></td>
+          <td><canvas id="8" class="cellStyle" onclick="humanMoveHandler ( id )" onmouseover="mouseOverHandler(id)" onmouseout="mouseOutHandler(id)"></canvas></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="forWindows"></div>
+
+  <div class="top-bar" style="padding-bottom: 0px" id="responsive-footer">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="footerBox">
+          <p class="marginBottom0">WebLab</p>
+          <p class="marginBottom0">Copyright 2017</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
